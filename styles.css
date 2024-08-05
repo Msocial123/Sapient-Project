@@ -1,0 +1,154 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #ffffff, #f2f2f2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 100%;
+    max-width: 900px;
+    padding: 30px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #000000;
+    font-weight: 600;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+fieldset {
+    border: 2px solid #000000;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    background: #f9f9f9;
+}
+
+legend {
+    font-size: 20px;
+    font-weight: 600;
+    color: #cc0000;
+    padding: 0 10px;
+    border-bottom: 2px solid #000000;
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    background: #ffffff;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="date"],
+input[type="url"],
+textarea,
+select {
+    padding: 12px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button {
+    background: #cc0000;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background 0.3s ease;
+}
+
+button:hover {
+    background: #990000;
+}
+
+input[type="file"] {
+    padding: 0;
+    border: none;
+}
+
+.skills-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skills-options label {
+    background: #f2f2f2;
+    border: 1px solid #000000;
+    border-radius: 15px;
+    padding: 8px 15px;
+    font-size: 14px;
+}
+
+#otherSkills {
+    margin-left: 10px;
+    border: 1px solid #000000;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 16px;
+}
+
+.form-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+
+a {
+    color: #cc0000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
